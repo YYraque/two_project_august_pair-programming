@@ -53,6 +53,11 @@ Abra o terminal ou prompt de comando e execute:
 pip install requests pillow
 
 ```
+```bash
+python -m pip install requests pillow
+
+```
+
 
 > **Nota:** O `tkinter` já vem instalado por padrão na maioria das instalações do Python para Windows/macOS. Caso esteja utilizando Linux (Ubuntu/Debian), instale-o via terminal:
 > `sudo apt-get install python3-tkinter`

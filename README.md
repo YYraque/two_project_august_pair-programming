@@ -15,7 +15,7 @@ Este repositório contém uma coleção de aplicações gráficas desenvolvidas 
 
 ## 🚀 Projetos Incluídos
 
-### 1. 📜 Linha do Tempo: Eufrásia Teixeira Leite (`historia_financas.py`)
+### 1. 📜 Linha do Tempo: Eufrásia Teixeira Leite (`historia_financas_with_eufrasia_seunome.py`)
 Uma interface interativa sobre **Eufrásia Teixeira Leite** (1850–1930), a primeira investidora global do Brasil.
 * **Destaques:** 
   * Download e exibição de imagem via requisição HTTP (`requests` e `Pillow`).
@@ -24,7 +24,7 @@ Uma interface interativa sobre **Eufrásia Teixeira Leite** (1850–1930), a pri
 
 ---
 
-### 2. 💵 Simulador de Aportes (`simulador_aportes.py`)
+### 2. 💵 Simulador de Aportes (`financas_aportes_bankb3_seunome.py`)
 Uma calculadora de fluxo de caixa simplificada para ensinar operações de depósito e saque.
 * **Destaques:**
   * Controle de saldo em tempo real.
@@ -33,7 +33,7 @@ Uma calculadora de fluxo de caixa simplificada para ensinar operações de depó
 
 ---
 
-### 3. 📊 Dashboard Financeiro - Padrão B3 (`dashboard_b3.py`)
+### 3. 📊 Dashboard Financeiro - Padrão B3 (`financas_dashboard_bankb3_seunome.py`)
 Um painel completo simulando o ambiente da Bolsa de Valores brasileira (B3).
 * **Destaques:**
   * Uso de abas interativas (`ttk.Notebook`) para navegar entre **Conta Corrente**, **Criptoativos** e **Extrato**.
@@ -65,13 +65,13 @@ Navegue até a pasta do projeto no seu terminal e rode o arquivo desejado:
 
 ```bash
 # Executar a Linha do Tempo de Eufrásia
-python historia_financas.py
+python historia_financas_with_eufrasia_seunome.py
 
 # Executar o Simulador de Aportes
-python simulador_aportes.py
+python financas_aportes_bankb3_seunome.py
 
 # Executar o Dashboard B3
-python dashboard_b3.py
+python financas_dashboard_bankb3_seunome.py
 
 ```
 
@@ -81,9 +81,9 @@ python dashboard_b3.py
 
 ```text
 .
-├── historia_financas.py    # Aplicação sobre Eufrásia Teixeira Leite
-├── simulador_aportes.py    # Simulador simples de depósitos e saques
-├── dashboard_b3.py         # Dashboard financeiro com abas (B3)
+├── historia_financas_with_eufrasia_seunome.py    # Aplicação sobre Eufrásia Teixeira Leite
+├── financas_aportes_bankb3_seunome.py    # Simulador simples de depósitos e saques
+├── financas_dashboard_bankb3_seunome.py         # Dashboard financeiro com abas (B3)
 └── README.md               # Documentação do projeto
 
 ```

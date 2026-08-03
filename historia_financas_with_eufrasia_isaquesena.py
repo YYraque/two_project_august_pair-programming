@@ -52,7 +52,7 @@ lbl_subtitulo = tk.Label(
     bg="#f4f4f9",
 )
 lbl_subtitulo.pack(pady=2)
-
+                        
 # 4. Carregando Imagem da Internet
 url_imagem = "https://upload.wikimedia.org/wikipedia/commons/4/40/Eufr%C3%A1sia_Teixeira_Leite_aos_30_anos_%282%29.jpg"
 # url_imagem = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Tarsila_do_Amaral%2C_ca._1925.jpg/960px-Tarsila_do_Amaral%2C_ca._1925.jpg"
@@ -102,6 +102,8 @@ eventos = {
     "1872 - Herança & Europa": "Após perder os pais, mudou-se para Paris e assumiu a gestão da fortuna da família.",
     "1873-1930 - Carteira Global": "Investiu em títulos, ações e ferrovias em 13 países e 7 moedas diferentes.",
     "1930 - Legado": "Faleceu deixando sua fortuna para causas sociais e educacionais no Brasil.",
+    "Curiosidades": "",
+    "O legado de Eufrasia": "",
     # herança, relacionamento.
 }
 

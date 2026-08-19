@@ -25,7 +25,7 @@ def sacar():
             messagebox.showwarning("Aviso", "Digite um valor maior que zero.")
 
         if val > saldo:
-            essagebox.showwarning("Aviso", "Saldo insuficiente!")
+            messagebox.showwarning("Aviso", "Saldo insuficiente!")
         else:
             saldo -= val
             atualizar_saldo()

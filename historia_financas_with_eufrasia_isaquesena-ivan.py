@@ -1,6 +1,6 @@
 import io
 import tkinter as tk
-import tkinter import messagebox
+from tkinter import messagebox
 import requests
 from PIL import Image, ImageTk
 
@@ -51,7 +51,7 @@ try:
     resposta = requests.get(url_imagem, headers=headers, timeouts=5)
     resposta.raise_for_status()
 
-    dados_iamgem = resposta.content
+    dados_imagem = resposta.content
 
     imagem_pil = Image.open(io.BytesIO(dados_imagem))
     imagem_pil = imagem_pil.resize(
@@ -71,7 +71,7 @@ except Exception as erro:
         text="[Foto da Eufrásia teixeira Leite - Indisponível sem internet]",
         font=("Arial", 9, "italic"),
         fg="gray",
-        bg="#f4f4f9,"
+        bg="#f4f4f9",
     )
     lbl_erro.pack(pady=10)
 
@@ -81,7 +81,7 @@ eventos = {
         "1873-1930 - Carteira Global": "Investiu em títulos, ações e ferrovias em 13 países e 7 moedas diferentes.",
         "1930 - Legado": "Faleceu deixando sua fortuna para causas sociais e educacionais no Brasil.",
         "Curiosidades": "Sem herdeiros diretos, deixou quase toda a sua imensa fortuna para instituições de caridade, saúde e educação em Vassouras (RJ).",
-        "O legado de Eufrasia": "",
+        "O legado de Eufrasia": ". Órfã aos 22 anos, multiplicou sua herança familiar operando em 17 países e 9 moedas, deixando um imenso legado filantrópico e cultural em Vassouras (RJ).",
 }
 
 for data, detalhe in eventos.items():
